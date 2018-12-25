@@ -5,8 +5,8 @@ class Header extends Component {
     render() {
         return (
             <div className="header">
-                <h1>Twin Peaks Clicky Game</h1>
-                <p>Click on an image to earn points, but don't click on any more than once!</p>
+                <h1>Anime Clicky Game</h1>
+                <p>Click on characters to earn points. Do not click on any more than once!</p>
             </div>
         )
     }

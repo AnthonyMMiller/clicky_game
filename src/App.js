@@ -40,7 +40,7 @@ class App extends Component {
       // run the reshuffle function after each click
       this.makeShuffle();
     } else if (this.state.score === 12) {
-      alert("You win, you clicked each character with out clicking doubles")
+      alert("You win!")
       this.setState({
         score: 0,
         clickedCharacters: []
@@ -51,7 +51,7 @@ class App extends Component {
         clickedCharacters: []
       });
       console.log("duplicate")
-      alert("Sorry you clicked the same person twice, start over")
+      alert("Sorry you clicked the same person twice, Game Over")
     }
 
     if (score > topScore) {
